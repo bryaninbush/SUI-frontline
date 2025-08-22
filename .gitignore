@@ -1,1 +1,22 @@
+# Rust build artifacts
 /target
+**/target/
+
+# Move build artifacts
+/contracts/*/build
+**/build/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS 系統檔
+**/.DS_Store
+
+# Node / 前端（如果之後加）
+node_modules/
+dist/
+
+# 暫存檔
+*.log
+*.tmp
